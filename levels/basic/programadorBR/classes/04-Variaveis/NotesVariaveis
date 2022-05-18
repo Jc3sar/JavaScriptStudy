@@ -1,0 +1,21 @@
+# Variável
++ Serve para nós lidarmos com dados sem saber o que ele é;
++ É como se fosse uma caixinha na qual eu guardo informações dentro;
+
+# Como funciona na memória
++ 'undefined' é quando uma variável não foi inicializada.
+* Quando se trata de um programa, a ordem importa bastante!
+
+# Nome de variável;
++ Pode ter underline '_' e número, mas não no início dela;
++ No PHP utiliza-se underline entre palavras, como por exemplo <script> var = nome_variavel </script>
+
+## IMPORTANTE!
++ No Javascript, letra maiúscula e minúscula são diferentes.
+    "a" é diferente de "A"
+Logo, se eu declarar uma variável como 
+    caixaGrande
+E depois tentar usar ela digitando:
+    caixagrande
+Não irá funciona pois para ele "caixaGrande" e "caixagrande" não são a mesma coisa. (CamelCase)
+

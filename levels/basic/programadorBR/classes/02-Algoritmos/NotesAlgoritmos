@@ -1,0 +1,17 @@
+# O Computador é burro!
++ Professor deu exemplo de atravessar a rua. Ser humano tem uma experiência právia, mas o computador não. É como se ele fosse uma criança.
+
+# Exemplo do professor:
++ Primeira tentativa:
+Se o queijo estiver fechado então
+    abrir o queijo
+Fim
+
++ Segunda tentativa:
+Pegar a faca
+Abrir o pão com a faca
+Cortar um pedaço do queijo com a faca
+Passar o queijo na parte interna do pão com a faca
+Largar a faca e comer o pão
+
+# Algoritmos é isso, passos finitos em uma ordem pré-definida que vai resolver algum tipo de problema;

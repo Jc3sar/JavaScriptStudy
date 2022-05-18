@@ -1,0 +1,16 @@
+# Boolean
++ É verdadeiro ou falso;
++ Ele permite fazer operações lógicas, pode ser true ou false;
+
+# Null
++ É a certeza de que não há nada dentro da variável;
+
+# Undefined
++ Quando eu não inicializo uma variável;
+
+# Number
++ Usado para operações matemáticas;
+
+# String
+- É uma cadeia de carcacteres (Espaço é uma String)
+Ele (o espaço) é representado assim: <script> var a = ""; </script>
