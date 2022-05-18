@@ -15,13 +15,10 @@ function media(){
 
     let media = (n1 + n2)/2;
 
-    if (media >=7)
-        if(media==10)
-        alert("Aprovado com distinção");
-        else
-        alert("Parabens, aprovado! Media "+media);
-    else
-    alert("Reprovado!")
+    media >= 7 && media < 10 ? alert("Parabens, aprovado! Media " + media) 
+    : media == 10 ? alert("Aprovado com distinção") 
+    : media > 10 ? alert("Preencha os dados da nota corretamente")   // Tive que adiconar mais um;
+    : alert("Reprovado");
 }
 
 

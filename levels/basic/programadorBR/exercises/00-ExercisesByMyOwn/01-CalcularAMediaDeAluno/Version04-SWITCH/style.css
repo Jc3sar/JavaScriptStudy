@@ -30,6 +30,10 @@ body{
     flex-direction: column;
 }
 
+.card h1{
+    text-align: center;
+}
+
 #title2{
     margin-top: 20px;
 }

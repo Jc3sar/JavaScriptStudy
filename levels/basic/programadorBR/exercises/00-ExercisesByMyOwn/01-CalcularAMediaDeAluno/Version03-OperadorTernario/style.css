@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1{
+    text-align: center;
+}
+
+
+#title2{
+    margin-top: 20px;
+}
+
+.container button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #0d1d02c7;
+}
+
+@media (max-width: 400px){
+    .container{
+        width: 300px;
+        background-color: #fff;
+        margin-top: 30%;
+    }
+}
