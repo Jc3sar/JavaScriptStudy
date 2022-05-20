@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(70, 142, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: #000;
+    box-shadow: 0px 50px 140px #000;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    box-shadow: 0px 0px 48px #000;
+    text-align: center;
+}
+
+.msgUser{
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px rgb(175, 53, 53); */
+    align-items: center;
+    line-height: 40px;
+}
+
+.msgUser h2{
+    font-size: 25px;
+}
+
+.msgUser input{
+    width: 100%;
+    padding: 10px;
+}
+
+.msgUser button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+div{
+    padding: 8px;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.msg{
+    font-size: 40px;
+    color: #fff;
+}
+
+@media (min-width: 420px) and (max-width: 530px){
+    section{
+        width: 400px;
+    }
+}
+
+@media (min-width: 362px) and (max-width: 419px){
+    section{
+        width: 350px;
+    }
+}
+
+@media (min-width: 300px)and (max-width: 361px){
+    section{
+        width: 300px;
+    }
+}

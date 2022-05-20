@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia </title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body onload="carregar()">
+
+    <header id="header">
+        <h1>Hora do dia</h1>
+    </header>
+
+    <section>
+
+        <div class="msgUser">
+            <h2>Digite um horário do dia:</h2>
+            <p>O horário que você digitar mudará a <b>imagem</b></p>
+            <input type="number" id="horaUser">
+            <button onclick="HoraAdicionada()">Enviar</button>
+        </div>
+
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+   
+        <div id="foto">
+            <img  id="imagem" src="assets/img/morning.png" alt="Foto do dia">
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Júlio César from CursoEmVideo</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+
+
+    
+
+</body>
+</html>

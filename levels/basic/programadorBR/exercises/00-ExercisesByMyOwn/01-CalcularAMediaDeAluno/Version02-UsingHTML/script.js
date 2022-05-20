@@ -10,8 +10,8 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
 
 function media(){
-    let n1 = parseFloat(document.getElementById("n1").value); //Peguei o valor do input com esse ID;
-    let n2 = parseFloat(document.getElementById("n2").value); // Peguei o valor do input com esse ID;;
+    let n1 = parseFloat(document.getElementById("n1").value); //Peguei o valor do input com esse ID e converti;
+    let n2 = parseFloat(document.getElementById("n2").value); // Peguei o valor do input com esse ID e converti;
 
     let media = (n1 + n2)/2;
 
@@ -22,7 +22,7 @@ function media(){
         else
         alert("Parabens, aprovado! Media "+media);
     else
-    alert("Reprovado!")
+    alert("Reprovado!");
 }
 
 
