@@ -39,23 +39,23 @@ section{
 .msgUser{
     display: flex;
     flex-direction: column;
-    /* border: solid 1px rgb(175, 53, 53); */
     align-items: center;
-    line-height: 40px;
 }
 
 .msgUser h2{
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .msgUser input{
     width: 100%;
     padding: 10px;
+    margin-top: 20px;
 }
 
 .msgUser button{
     width: 30%;
-    padding: 10px;
+    padding: 18px;
     margin-top: 10px;
     background-color: #000;
     color: #fff;
