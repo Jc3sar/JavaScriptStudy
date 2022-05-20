@@ -36,6 +36,9 @@ section{
     text-align: center;
 }
 
+#red{
+    color: red;
+}
 .msgUser{
     display: flex;
     flex-direction: column;
