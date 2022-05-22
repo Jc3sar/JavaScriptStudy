@@ -12,9 +12,7 @@ function myFunction(a, b){
 /*The author's solution
 
 function myFunction(a, b) {
-  return b.split(a).length - 1
+  return b.split(a).length - 1 [PESQUISAR]
 }
-
-
 
 */
