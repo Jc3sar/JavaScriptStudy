@@ -10,17 +10,30 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
 
 function media(){
-    let n1 = parseFloat(document.getElementById("n1").value); //Peguei o valor do input com esse ID;
+    let n1 = parseFloat(document.getElementById("n1").value); // Peguei o valor do input com esse ID;
     let n2 = parseFloat(document.getElementById("n2").value); // Peguei o valor do input com esse ID;;
     let media = (n1 + n2)/2;
     var conceito = "";
 
-    if (media >= 7 && media < 10)
+
+    if (media >= 7 && media < 10){
         conceito = "Bom";
-            else if (media == 10)
-            conceito = "Ótimo";
-                else if (media < 7 && media >= 0)
-                conceito = "Regular";
+    } else if (media == 10){
+        conceito = "Ótimo";
+    } else if (media < 7 && media >= 0){
+        conceito = "Regular";
+    }
+
+
+    // if (media >= 7 && media < 10)
+    //     conceito = "Bom";
+    //         else if (media == 10)
+    //         conceito = "Ótimo";
+    //             else if (media < 7 && media >= 0)
+    //             conceito = "Regular";
+    // Só vai para a direita se ESTIVER UM DENTRO DO OUTRO!
+
+    // NUNCA USE O IF SEM CHAVES!!!!
         
     // alert("As notas são " + n1 + " e " + n2);
     // alert("\nA média é " + media);
