@@ -2,6 +2,7 @@
 // Pegar a imagem e a hora
 var img = window.document.getElementById('imagem'); 
 var msg = window.document.getElementById('msg');
+
 function carregar(){
     var data = new Date();
     var hora = data.getHours();  
@@ -23,7 +24,8 @@ function carregar(){
   // OnClick
   function HoraAdicionada(){
     let horaUser = parseFloat(document.getElementById('horaUser').value);
-    msg.innerHTML = ``; // Dúvida, tem como dar Display nisso?Por estilo?
+    // msg.innerHTML = ``; (Redundante)
+     // Dúvida, tem como dar Display nisso? Por estilo?
     // let header = document.getElementById('header');
     if (horaUser >= 0 && horaUser <= 12){
         img.src = 'assets/img/morning.png';
@@ -36,11 +38,17 @@ function carregar(){
     } else if (horaUser > 18 && horaUser <= 23){
         img.src = 'assets/img/night.png';
         document.body.style.background = '#2c5985';
+        // document.body.style.display = 'none';
         msg.innerHTML = `Agora é ${horaUser} horas`;
     } else{
         alert("Digite o horário corretamente");
     }
 }
+
+
+/**
+ * Isolar variaveis
+ */
 
  /*
 function functionA() {
