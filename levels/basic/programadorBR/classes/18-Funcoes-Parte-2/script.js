@@ -7,7 +7,7 @@ var s = saudacao();
 console.log(s);
 
 //Já que agora s é uma função, eu posso fazer isso:
-// console.log(s());
+// console.log(s()); Como se ue 'trocasse de nome de função';
 
 
 
