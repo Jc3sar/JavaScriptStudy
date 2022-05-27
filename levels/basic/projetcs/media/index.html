@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;800&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="assets/styles/general.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <title>Calcular média</title>
+</head>
+<body>
+
+
+   <header>
+       <!-- Menu de navegação -->
+       <nav class="nav-bar">
+            <a href="#" class="nav-branding">M.</a>
+        
+             <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" clas="nav-link">Média</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" clas="nav-link">Aprovados</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" clas="nav-link">Sobre</a>
+                 </li>
+             </ul>
+
+            <!-- Haumburguer -->
+            <div class="hamburguer">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        
+        </nav>
+   </header>
+
+
+   <!-- Central -->
+   <main>
+        <section class="formField">
+        
+            <div class="img">
+                <img id="img" src="assets/imgs/startPoint.png" alt="">
+            </div>
+
+            <div class="messages">
+                <h1 id="nomeDoAluno">CALCULAR MÉDIA</h1>
+                <p id="msgAluno">Preencha o nome do aluno e as notas de cada matéria.</p>
+                <p id="obs"><i><b>OBS: </b>Para ser aprovado a média precisa ser maior ou igual a 7</i></p>
+            </div>
+
+            <div class="form">
+                <p>Nome do aluno:</p>
+                <input type="text" id="nome" placeholder="Apenas nome e sobrenome">
+                <p>Biologia:</p>
+                <input type="number" id="bio" placeholder="Qual foi a nota em Biologia?">
+                <p>Matemática:</p>
+                <input type="number" id="mat" placeholder="Qual foi a nota em Matemática?">
+                <p>Português:</p>
+                <input type="number" id="port" placeholder="Qual foi a nota em português?">
+                <div class="botoes">
+                <button  id="limpar">Limpar</button>
+                <button  id="enviar" onclick="carregar()">Enviar</button>
+                </div>
+            </div>
+        </section>
+   </main>
+
+
+   
+   <!-- Footer -->
+   <footer>
+        <p>&copy; Júlio César </p>
+   </footer>
+
+   <script src="assets/script/menuResponsive.js"></script>
+   <script src="assets/script/contentChanges.js"></script>
+   
+    
+</body>
+</html>
